@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmartTajwid</string>
+    <string name="tajwid">Ilmu Tajwid</string>
+    <string name="doa">Doa Sehari - Hari</string>
+    <string name="quiz">Quiz</string>
+    <string name="daftar">Daftar</string>
+</resources>

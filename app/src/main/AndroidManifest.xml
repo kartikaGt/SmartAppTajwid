@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pastibisa.smarttajwidapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_aplikasi_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_aplikasi_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartTajwidApp">
+        <activity
+            android:name=".QuestionEasy2"
+            android:exported="false" />
+        <activity
+            android:name=".DetailTajwidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizHardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizMediumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizEasyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".QuizActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TajwidActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
